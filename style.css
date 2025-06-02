@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(55, 20, 24);
+    color: rgb(212, 195, 125);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -10,9 +10,8 @@ body {
     margin: auto;
 }
 
-/* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(64, 1, 1);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -21,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(145, 103, 20);
     flex: 1;
     margin: 0;
 }
@@ -40,12 +39,11 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
-/* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(33, 19, 2);
     display: flex;
     margin-top: 20px;
 }
@@ -64,7 +62,6 @@ main {
     padding: 15px;
 }
 
-/* interests section styles */
 #interests {
     border: 4px silver ridge;
     padding: 8px;
@@ -74,15 +71,9 @@ main {
 h2, h3 {
     margin: 0px;
 }
-nav {
-  background: #444;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
 
 nav {
-  background: #444;
+  background: #fffcc4;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -90,14 +81,14 @@ nav {
 }
 
 body {
-  background: #2a2a2a;
-  color: #ddd;
+  background: #cca275;
+  color: #fbc093;
 }
 
 nav {
-  background: #333;
+  background: #ffe5b9;
 }
 
 a {
-  color: #ffa500;
+  color: #000000;
 }
