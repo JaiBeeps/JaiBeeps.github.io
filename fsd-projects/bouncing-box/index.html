@@ -75,12 +75,12 @@
         function update() {
           positionX = positionX + speed;
           moveBoxTo(positionX); 
-          if (positionX > boardWidth); {
+          if (positionX > boardWidth) {
             speed = speed * -1;
-           if (positionX < 0) {
-              speed *= -1;
-            }
-          }  
+          }
+          if (positionX < 0){
+            speed *= -1;
+          }
         }
 
         /* 
@@ -88,14 +88,14 @@
 			it should increase the points total, increase the speed, and move the box to
 			the left side of the screen.
 			*/
-        function handleBoxClick() {}
+        function handleBoxClick() {
 		positionX = 0;
     speed = speed + 3;
     speed = 3 * points + 10;
     points = points + 1;
 		changeBoxText(points);
 		
-      })();
+      }})();
     </script>
   </body>
 </html>
